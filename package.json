@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/yogieeka/nodejs-mobile-react-native.git",
+      "/Users/user/Luna/luna-mobile-new-clone"
+    ]
+  ],
+  "_from": "git+https://github.com/yogieeka/nodejs-mobile-react-native.git",
+  "_id": "nodejs-mobile-react-native@git+https://github.com/yogieeka/nodejs-mobile-react-native.git#469923d06a40c652b20cbf33760087b3eb9810e6",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/nodejs-mobile-react-native",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/yogieeka/nodejs-mobile-react-native.git",
+    "rawSpec": "git+https://github.com/yogieeka/nodejs-mobile-react-native.git",
+    "saveSpec": "git+https://github.com/yogieeka/nodejs-mobile-react-native.git",
+    "fetchSpec": "https://github.com/yogieeka/nodejs-mobile-react-native.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/yogieeka/nodejs-mobile-react-native.git#469923d06a40c652b20cbf33760087b3eb9810e6",
+  "_spec": "git+https://github.com/yogieeka/nodejs-mobile-react-native.git",
+  "_where": "/Users/user/Luna/luna-mobile-new-clone",
+  "author": {
+    "name": "janeasystems"
+  },
+  "bugs": {
+    "url": "https://github.com/janeasystems/nodejs-mobile/issues"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "nodejs-mobile-gyp": "^0.2.0",
+    "xcode": "^0.9.3"
+  },
+  "description": "Node.js for Mobile Apps React Native plugin",
+  "homepage": "https://code.janeasystems.com/nodejs-mobile",
+  "keywords": [
+    "react-native",
+    "mobile",
+    "nodejs",
+    "node.js",
+    "nodejs-mobile"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "nodejs-mobile-react-native",
+  "peerDependencies": {
+    "react-native": ">=0.52.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janeasystems/nodejs-mobile-react-native.git"
+  },
+  "rnpm": {
+    "commands": {
+      "postlink": "node node_modules/nodejs-mobile-react-native/scripts/module-postlink.js"
+    }
+  },
+  "scripts": {
+    "postinstall": "node scripts/create-node-structure.js"
+  },
+  "version": "0.3.2"
+}
